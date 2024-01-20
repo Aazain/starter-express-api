@@ -1,14 +1,9 @@
 {
-<<<<<<< HEAD
   "name": "listingsapi",
-=======
-  "name": "starter-express-api",
->>>>>>> e7d7f8d8d1e85c06e1800b1ad3ee9a8f37c05551
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "start": "nodemon ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,21 +16,5 @@
     "express": "^4.18.2",
     "mongoose": "^8.1.0",
     "nodemon": "^3.0.3"
-=======
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
-  "dependencies": {
-    "express": "^4.18.2"
->>>>>>> e7d7f8d8d1e85c06e1800b1ad3ee9a8f37c05551
   }
 }
