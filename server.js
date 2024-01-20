@@ -8,7 +8,7 @@
  * 
  * Name: Aazain Rafiq   Student ID: 146710223 Date: 2024-01-19
  * 
- * Published URL: ___________________________________________________________
+ * Published URL: https://bright-bear-flannel-shirt.cyclic.app/
  * 
  *********************************************************************************/
 
@@ -50,8 +50,8 @@ app.post("/api/listings", async (req, res) => {
 });
 
 app.get("/api/listings", async (req, res) => {
-    const page = parseInt(req.query.page);
-    const perPage = parseInt(req.query.perPage);
+    const page = parseInt(req.query.page) || 1;
+    const perPage = parseInt(req.query.perPage) || 5;
     const nameFilter = req.query.name;
 
     try {
