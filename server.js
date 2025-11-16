@@ -1,17 +1,3 @@
-/********************************************************************************* 
- * BTI425 – Assignment 1*
- * 
- *  I declare that this assignment is my own work in accordance with Seneca's
- *  Academic Integrity Policy:
- * 
- * https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
- * 
- * Name: Aazain Rafiq   Student ID: 146710223 Date: 2024-01-19
- * 
- * Published URL: https://bright-bear-flannel-shirt.cyclic.app/
- * 
- *********************************************************************************/
-
 const express = require("express");
 const dotenv = require('dotenv').config();
 var cors = require('cors')
